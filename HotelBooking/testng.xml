@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BookingSuite">
+  <test thread-count="5" name="Crete New Booking Test- pay@hotel">
+  <parameter name="action" value="pay@hotel"></parameter>
+    <classes>
+    
+      <class name="testcases.Bookings">
+      	<methods>
+      		<include name ="searchHotel"></include> 
+      		<include name ="typeOfRoom"></include>
+      		<include name ="guestInfo"></include>
+      	</methods>
+      </class>
+      
+      <class name="testcases.PaymentManager">
+	      <methods>
+	      	<include name ="applyDiscount"></include> 
+      		<include name ="makePayment"></include>
+	      </methods>
+      </class>
+      
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name ="checkEmailVerification"></include> 
+      		<include name ="checkMobileVerification"></include>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Crete New Booking Test- Electronic media">
+  <parameter name="action" value="Electronic media"></parameter>
+    <classes>
+    
+      <class name="testcases.Bookings">
+      	<methods>
+      		<include name ="searchHotel"></include> 
+      		<include name ="typeOfRoom"></include>
+      		<include name ="guestInfo"></include>
+      	</methods>
+      </class>
+      
+      <class name="testcases.PaymentManager">
+	      <methods>
+	      	<include name ="applyDiscount"></include> 
+      		<include name ="makePayment"></include>
+	      </methods>
+      </class>
+      
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name ="checkEmailVerification"></include> 
+      		<include name ="checkMobileVerification"></include>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--  <test thread-count="5" name="Modify Existing Booking Test">
+    <classes>
+    
+      <class name="testcases.Bookings">
+      	<methods>
+      		<include name ="loadBooking"></include> 
+      		<include name ="typeOfRoom"></include>
+      		<include name ="guestInfo"></include>
+      	</methods>
+      </class>
+      
+      <class name="testcases.PaymentManager">
+	      <methods>
+	      	<include name ="applyDiscount"></include> 
+      		<include name ="makePayment"></include>
+	      </methods>
+      </class>
+      
+      <class name="testcases.CustomerCommunication">
+      	<methods>
+      		<include name ="checkEmailVerification"></include> 
+      		<include name ="checkMobileVerification"></include>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test>--> <!-- Test -->
+  
+</suite> <!-- Suite -->
