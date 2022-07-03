@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T08:46:31Z" name="Suite" finished-at="2022-07-02T08:46:31Z" duration-ms="91">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T08:46:31Z" name="Test" finished-at="2022-07-02T08:46:31Z" duration-ms="91">
+      <class name="testNg.ParallelTest">
+        <test-method signature="A5()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A5" finished-at="2022-07-02T08:46:31Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A5 -->
+        <test-method signature="A1()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A1" finished-at="2022-07-02T08:46:31Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1 -->
+        <test-method signature="A3()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A3" finished-at="2022-07-02T08:46:31Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3 -->
+        <test-method signature="A7()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A7" finished-at="2022-07-02T08:46:31Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A7 -->
+        <test-method signature="A6()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A6" finished-at="2022-07-02T08:46:31Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A6 -->
+        <test-method signature="A2()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A2" finished-at="2022-07-02T08:46:31Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2 -->
+        <test-method signature="A4()[pri:0, instance:testNg.ParallelTest@43ee72e6]" started-at="2022-07-02T08:46:31Z" name="A4" finished-at="2022-07-02T08:46:31Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A4 -->
+      </class> <!-- testNg.ParallelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

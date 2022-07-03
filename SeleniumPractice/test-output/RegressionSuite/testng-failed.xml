@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNg.RadioButton1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="radioButtonTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNg.RadioButton1 -->
+      <class name="testNg.CheckBox1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="checkboxTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNg.CheckBox1 -->
+      <class name="testNg.LinksTesting1">
+        <methods>
+          <include name="linktesting1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testNg.LinksTesting1 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
